@@ -1,0 +1,43 @@
+*Navigaton Bar*/
+
+body {
+    font-family:'Alegreya Sans', 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
+
+.navbar-brand,
+.navbar-nav,
+.nav-item,
+.nav-link
+ {
+    color: #117a8b;
+    font-size: 16px;
+ }
+
+ .jumbotron{
+     background-color: #ffffff;
+     text-align: center;
+ }
+ h1{
+     color: #117a8b;
+     text-decoration: underline;
+ }
+
+ .container {
+     margin: 30px;
+ }
+h5 {
+    color: #117a8b;
+    text-decoration: underline;
+}
+.btn {
+    background-color: #117a8b;
+    border-color: #117a8b;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 600px;
+}

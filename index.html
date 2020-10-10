@@ -9,8 +9,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!--custom is the css file for the index/home page-->
-    <link rel="stylesheet" href="../Janliz-Suarez-Portfolio/css/custome.css">
+    <!--Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google Fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,800;1,300&family=Montserrat&display=swap"
+        rel="stylesheet">
+
+    <!--custom is the css file-->
+    <link rel="stylesheet" type="text/css" href="../Janliz-Suarez-Portfolio/css/custom.css">
 
     <title>Janliz Suarez | Web Development | Porfolio</title>
 </head>
@@ -46,14 +54,13 @@
     <main>
 
         <!--One row 2 columns for the section about me-->
-        <div class="container-{breakpoint}">
+        <section class="container-{breakpoint}">
             <div class="row">
-                <div class="col-sm-4">
-                    <picture>
-                            <img src="/Janliz-Suarez-Portfolio/images/janliz_suarez_aboutme_photo.jpg" class="img-fluid rounded-circle" style="width: 100; height: 100;" alt="Responsive image">
-                    </picture>
+                <div class="col-sm-4 ml-auto">
+                    <img src="images/janliz_suarez_aboutme_photo.jpg" style="width: 250px; height: 250px;"
+                        class="img-fluid rounded-circle" alt="Janliz Suarez">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 mr-auto">
                     <h1>Janliz Suarez</h1>
                     <h3>Digital Marketing Strategist</h3>
                     <p class="text-left">I'm a digital marketing professional with an extensive background in multiple
@@ -66,62 +73,37 @@
                         development.</p>
                     <p class="text-left">Finally, after many years in the process I condired the SMU Full Stack Web
                         Development Bootcamp. Today I'm starting journey.</p>
+                    <div class="col-sm-4">
+                        <h4> Let's Keep In Touch!</h4>
+                        <a href="https://www.linkedin.com/in/janlizsuarezrosado/" class="fa fa-linkedin"
+                            alt="Linkedin Icon"></a>
+                        <a href="https://github.com/CivicaJR91" class=" fa fa-github" alt="Github Icon"></a>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!--One row 4 columns for the section Areas of Expertise-->
-        <!--
-        <div class="container2">
-            <h3>Areas of Expertise</h3>
-            <div class="row">
-                <div class="col-md">
-                    <h4>Email Strategy</h4>
-                    <p class="text-left">Email Strategy, deployment, analysis & optimization. Monitor email deliverability & inbox placement. Knowlegable CAN-SPAM and CCPA. </p>
-                </div>
-                <div class="col-md">
-                    <h4>CRM Strategy</h4>
-                 <p class="text-left">Customer data collection and management. Customer retention and loyalty management. Customers segmentations. Digital channels intergration.</p>
-                </div>
-                <div class="col-md">
-                    <h4> Marketing Automation</h4>
-                    <p class="text-left">Digital channels integrations. Using customers behavioral data to provide a 1-1 brand experience.</p>
-                </div>
-                <div class="col-md">
-                    <h4>Full Stack Web Development</h4>
-                    <p class="text-left">Just statred my journey at SMU Full Stack Web development. Certification Cooming Soon!</p>
-                </div>
-            </div>
-        </div> -->
-        <!--one row 3 colums for the section-->
-
-        
-            <!-- 
-                <div class="container3">
-            <h3>What Others Have To Say</h3>
-        </div> -->
-            <!--carousel-->
-            <!-- 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="/images/review1.png" class="d-block w-100" style="width:200px;height:400px" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/reviwe2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/review3.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div> -->
+        </section>
     </main>
 
+    <!--End of Main Content-->
 
-
-
-    <footer class="footer mt-auto py-3">
-        <span class="text-muted"> Created by Janliz Suarez with Boostrap</span>
+    <!--Starts Footer-->
+    <footer id="sticky-footer" class="py-4 bg-light text-black-50">
+        <div class="container text-center">
+            <small>Janliz Suarez Porfolio &copy; Power by Boostrap</small>
+        </div>
     </footer>
+    <!--Footer Ends-->
+
+    <!--JS Boostrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,91 @@
+
+
+body {
+    font-family:'Alegreya Sans', 'Montserrat', sans-serif;
+}
+
+/*Index/About Me Styling*/
+
+.img-fluid {
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+h1 {
+    color: #117a8b;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 60px; 
+}
+
+h3 {
+    color: #117a8b;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+h4 {
+    color:#117a8b;
+    font-size: 18px;
+    margin-right: auto
+}
+
+/*Social Media Icons Styling*/
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    margin: 5px 2px;
+}
+
+/* Porfolio Page CSS Styling*/
+
+.jumbotron{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.card {
+    margin-top: 15px;
+}
+
+h5 {
+   color: #117a8b;
+   text-decoration: underline;
+}
+
+.btn {
+    background-color: #117a8b;
+    border-color: #117a8b;
+ }
+
+
+
+/*End of Porfolio CSS Styling*/
+
+/* Start of Contact Me Page Styling*/
+
+
+.form-group {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.button {
+    border-color: #117a8b;
+    padding-left:  50px;
+}
+
+/*End of Contact Me Page Styling*/
+
+footer {
+    font-size: 14px;
+    margin-top: 200px;
+}

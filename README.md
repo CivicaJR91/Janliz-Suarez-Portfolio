@@ -24,10 +24,11 @@ Create a website containing the following pages and information:
 
 Home Page - Desktop
 
-![My Portfolio Desktop ](Janliz_Suarez_Home_Page_Desktop.png)
+![My Portfolio Desktop](images/Janliz_Suarez_Home_Page_Desktop.png)
 
 Home Page - Mobile
-![My Portfolio Mobile](Janliz_Suarez_Home_Page_Mobile.png)
+
+![My Portfolio Mobile](images/Janliz_Suarez_Homepage_Mobile.png)
 
 
 # Additional Information:
@@ -45,8 +46,8 @@ Home Page - Mobile
 
 # Repository:
 
-* Repository: 
-* Page Link: 
+* Repository: https://github.com/CivicaJR91/Janliz-Suarez-Portfolio
+* Page Link: https://civicajr91.github.io/Janliz-Suarez-Portfolio
 
 
 

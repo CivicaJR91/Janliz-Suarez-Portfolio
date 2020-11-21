@@ -12,6 +12,9 @@ body {
     margin-top: 60px;
 }
 
+#janimage{
+    margin-left: 50%;
+}
 
 h1 {
     color: #117a8b;
@@ -90,3 +93,60 @@ footer {
     font-size: 14px;
     margin-top: 200px;
 }
+
+/* Media Quesries*/
+@media (min-width: 1024px) {
+    #janimage{
+        margin-left: 20%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    #janimage{
+        margin-left: 50%;
+    }
+    #resume {
+        font-size: 12px;
+    } 
+}
+
+
+@media (min-width: 411px) {
+    #janimage { 
+        margin-right: 100px;
+        }
+}
+
+@media (min-width: 360px) {
+    #janimage { 
+       margin-left: 50px;
+       }
+   #resume {
+           font-size: 15px;
+   } 
+   .title{
+       text-align: center;
+   }
+   .maincopy{
+       text-align: justify;
+   }
+
+}
+
+@media (min-width: 375px) {
+     #janimage { 
+        margin-left: 10px;
+        }
+    #resume {
+            font-size: 15px;
+    } 
+    .title{
+        text-align: center;
+    }
+    .maincopy{
+        text-align: justify;
+    }
+
+}
+
